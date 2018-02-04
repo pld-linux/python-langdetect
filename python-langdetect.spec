@@ -32,26 +32,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-langdetect Port of Google's [language-detection]( library (version
-from 03/03/2014) to Python. Installation $ pip install
-langdetectSupported Python versions 2.6, 2.7, 3.x. Languages
-langdetect supports 55 languages out of the box ([ISO 639-1 codes](
-af, ar, bg, bn, ca, cs, cy, da, de, el, en, es, et, fa, fi, fr, gu,
-he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, mk, ml, mr, ne, nl, no,
-pa, pl,...
+Port of Google's language-detection library to Python.
 
 %package -n python3-%{pypi_name}
 Summary:	Language detection library ported from Google's language-detection
 Group:		Libraries/Python
 
 %description -n python3-%{pypi_name}
-langdetect Port of Google's [language-detection]( library (version
-from 03/03/2014) to Python. Installation $ pip install
-langdetectSupported Python versions 2.6, 2.7, 3.x. Languages
-langdetect supports 55 languages out of the box ([ISO 639-1 codes](
-af, ar, bg, bn, ca, cs, cy, da, de, el, en, es, et, fa, fi, fr, gu,
-he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, mk, ml, mr, ne, nl, no,
-pa, pl,...
+Port of Google's language-detection library to Python.
 
 %prep
 %setup -q -n %{pypi_name}-%{version}
