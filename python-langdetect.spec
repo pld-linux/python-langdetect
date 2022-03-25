@@ -10,7 +10,7 @@
 Summary:	Language detection library ported from Google's language-detection
 Name:		python-%{pypi_name}
 Version:	1.0.7
-Release:	5
+Release:	6
 License:	ASL-2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/l/%{pypi_name}/%{pypi_name}-%{version}.zip
